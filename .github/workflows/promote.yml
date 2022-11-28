@@ -29,7 +29,7 @@ on:
         description: 'Promote container tag'
         required: true 
         type: boolean 
-        default: 'true'
+        default: true
       promote_configmaps:
         description: 'Also promote application settings'
         required: true 
